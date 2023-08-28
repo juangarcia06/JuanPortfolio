@@ -1,0 +1,21 @@
+{
+    "development": [
+        { "name": "javascript", "iconType": "fa-brands", "icon": "fa-github" },
+        { "name": "typescript", "iconType": "fa-brands", "icon": "fa-github" },
+        { "name": "node", "iconType": "fa-brands", "icon": "fa-github" },
+        { "name": "express.js", "iconType": "fa-brands", "icon": "fa-github" },
+        { "name": "react", "iconType": "fa-brands", "icon": "fa-github" },
+        { "name": "react Native", "iconType": "fa-brands", "icon": "fa-github" },
+        { "name": "expo", "iconType": "fa-brands", "icon": "fa-github" },
+        { "name": "html", "iconType": "fa-brands", "icon": "fa-github" },
+        { "name": "css", "iconType": "fa-brands", "icon": "fa-github" }
+    ],
+    "services": [
+        { "name": "jira", "iconType": "fa-brands", "icon": "fa-jira" },
+        { "name": "slack", "iconType": "fa-brands", "icon": "fa-slack" }
+    ],
+    "applications": [
+        { "name": "jira", "iconType": "fa-brands", "icon": "fa-jira" },
+        { "name": "slack", "iconType": "fa-brands", "icon": "fa-slack" }
+    ]
+}
