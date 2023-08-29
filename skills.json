@@ -34,8 +34,8 @@
         { "name": "SQLite", "iconType": "fa-solid", "icon": "fa-database" }
     ],
     "marketing": [
-        { "name": "Tiktok ADS", "iconType": "fa-brands", "icon": "fa-tiktok" },
-        { "name": "Google ADS", "iconType": "fa-brands", "icon": "fa-google" },
+        { "name": "Tiktok Ads", "iconType": "fa-brands", "icon": "fa-tiktok" },
+        { "name": "Google Ads", "iconType": "fa-brands", "icon": "fa-google" },
         { "name": "Instagram", "iconType": "fa-brands", "icon": "fa-instagram" },
         { "name": "Discord", "iconType": "fa-brands", "icon": "fa-discord" },
         { "name": "SEO", "iconType": "fa-solid", "icon": "fa-magnifying-glass-chart" }
