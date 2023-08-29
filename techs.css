@@ -48,3 +48,10 @@
 #technologies div p {
     font-weight: 700;
 }
+
+@media (max-width: 625px) {
+    #technologies {
+        min-height: 100vh;
+        margin: 20vh 12px;
+    }
+}
