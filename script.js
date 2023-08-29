@@ -30,5 +30,30 @@ fetch('skills.json')
                     divContainer.appendChild(div);
                 });
             }
+
+            const skillCss = `#technologies .${property} {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-wrap: wrap;
+            }`;
+            const technologiesContainerCss = `#technologies .${property} div {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-flow: row wrap;
+                cursor: pointer;
+                color: rgba(255, 255, 255, 1);
+                width: 140px;
+                height: 60px;
+                padding: 0.2rem;
+                margin: 2px;
+                border: rgb(38, 38, 38) solid 1px;
+                border-radius: 0.375rem;
+                overflow: hidden;
+            }`;
+            const style = document.createElement('style');
+            style.innerText = technologiesContainerCss + skillCss;
+            document.head.appendChild(style)
         }
     });
