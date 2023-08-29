@@ -1,5 +1,5 @@
 // Fetch the techstack information
-fetch('techstack.json')
+fetch('skills.json')
     .then(response => response.json())
     .then(data => {
         const technologiesSection = document.getElementById('technologies');

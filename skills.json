@@ -1,0 +1,43 @@
+{
+    "languages": [
+        { "name": "JavaScript", "iconType": "fa-brands", "icon": "fa-js" },
+        { "name": "TypeScript", "iconType": "fa-brands", "icon": "fa-js" },
+        { "name": "C#", "iconType": "fa-brands", "icon": "fa-microsoft" },
+        { "name": "SQL", "iconType": "fa-solid", "icon": "fa-database" },
+        { "name": "HTML", "iconType": "fa-brands", "icon": "fa-html5" },
+        { "name": "CSS", "iconType": "fa-brands", "icon": "fa-css3" },
+        { "name": "Python", "iconType": "fa-brands", "icon": "fa-python" },
+        { "name": "Java", "iconType": "fa-brands", "icon": "fa-java" },
+        { "name": "Bash", "iconType": "fa-solid", "icon": "fa-terminal" }
+    ],
+    "frameworks": [
+        { "name": "React.js", "iconType": "fa-brands", "icon": "fa-react" },
+        { "name": "React Native", "iconType": "fa-brands", "icon": "fa-react" },
+        { "name": "Jest", "iconType": "fa-solid", "icon": "fa-flask" },
+        { "name": "Express.js", "iconType": "fa-brands", "icon": "fa-node" },
+        { "name": ".NET", "iconType": "fa-brands", "icon": "fa-microsoft" }
+    ],
+    "tools": [
+        { "name": "Git", "iconType": "fa-brands", "icon": "fa-git-alt" },
+        { "name": "Firebase", "iconType": "fa-solid", "icon": "fa-cloud" },
+        { "name": "JIRA", "iconType": "fa-brands", "icon": "fa-jira" },
+        { "name": "Shopify", "iconType": "fa-brands", "icon": "fa-shopify" },
+        { "name": "Office", "iconType": "fa-brands", "icon": "fa-windows" }
+    ],
+    "CICD": [
+        { "name": "Docker", "iconType": "fa-brands", "icon": "fa-docker" },
+        { "name": "VBox", "iconType": "fa-solid", "icon": "fa-server" },
+        { "name": "Linux", "iconType": "fa-brands", "icon": "fa-linux" },
+        { "name": "Linode", "iconType": "fa-brands", "icon": "fa-linode" },
+        { "name": "PostgreSQL", "iconType": "fa-solid", "icon": "fa-database" },
+        { "name": "MySQL", "iconType": "fa-solid", "icon": "fa-database" },
+        { "name": "SQLite", "iconType": "fa-solid", "icon": "fa-database" }
+    ],
+    "marketing": [
+        { "name": "Tiktok ADS", "iconType": "fa-brands", "icon": "fa-tiktok" },
+        { "name": "Google ADS", "iconType": "fa-brands", "icon": "fa-google" },
+        { "name": "Instagram", "iconType": "fa-brands", "icon": "fa-instagram" },
+        { "name": "Discord", "iconType": "fa-brands", "icon": "fa-discord" },
+        { "name": "SEO", "iconType": "fa-solid", "icon": "fa-magnifying-glass-chart" }
+    ]
+}
