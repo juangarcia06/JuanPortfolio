@@ -29,7 +29,7 @@ footer i {
 
 @media (max-width: 625px) {
     footer {
-        height: 60vh;
+        height: 50vh;
         width: 100%;
         left: auto;
         bottom: 0;
