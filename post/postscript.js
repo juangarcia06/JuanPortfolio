@@ -12,12 +12,21 @@ function getParameterByName(name, url) {
 fetch('../posts.json')
     .then(response => response.json())
     .then(data => {
-        const post = data.posts.filter((post) => post.parameter == getParameterByName("name"))[0]
-        
+        const post = data.posts.filter((post) => post.parameter == getParameterByName("name"))
+        console.log(post)
+        console.log(post[0])
         const postsSection = document.getElementById('.content')
 
         const header = postsSection.getElementsByTagName("h1");
         header.textContent = post.title;
+
+        const img = document.createElement('img')
+        img.src = "../blogimages/" + post.img
+        postsSection.appendChild(img)
+
+        const p = document.createElement('p')
+        p.innerText = post.description
+        postsSection.appendChild(p)
 
         for (const comment of post.comments) {
             const img = document.createElement('img')
