@@ -17,7 +17,7 @@ fetch('../posts.json')
         post = post[0]
         console.log(post)
 
-        const postsSection = document.getElementById('.content')
+        const postsSection = document.querySelector('.content')
 
         const header = document.querySelector("h1");
         header.textContent = post.title;
