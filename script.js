@@ -69,9 +69,7 @@ fetch('posts.json')
             const aTag = document.createElement('a')
             if (post.url != "") {
                 aTag.href = post.url
-            }
-            
-            if (post.parameter != null) {
+            } else if (post.parameter != "") {
                 aTag.href = "./post?name=" + post.parameter
             }
 

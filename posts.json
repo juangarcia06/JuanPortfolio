@@ -5,7 +5,7 @@
             "description": "Carit is a AI psycologyst app built with React Native, Expo, SQLite and Firebase.",
             "img": "carit.jpg",
             "url": "https://caritlove.netlify.app/",
-            "parameter": "carit",
+            "parameter": "",
             "comments": []
         },
         {
@@ -112,7 +112,7 @@
             "description": "RedditDude was an automated YouTube channel with a script using the Reddit API. Videos got music, voiceover, background. (Python)",
             "img": "redditdude.jpg",
             "url": "",
-            "parameter": "",
+            "parameter": "redditdude",
             "comments": []
         }
     ]
