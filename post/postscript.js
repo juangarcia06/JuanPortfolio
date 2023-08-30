@@ -24,11 +24,15 @@ fetch('../posts.json')
 
         const img = document.createElement('img')
         img.src = "../blogimages/" + post.img
+        img.width = "50%"
         postsSection.appendChild(img)
 
         const p = document.createElement('p')
         p.innerText = post.description
         postsSection.appendChild(p)
+            
+        const hr = document.createElement("hr");
+        postsSection.appendChild(hr);
 
         for (const comment of post.comments) {
             const img = document.createElement('img')
