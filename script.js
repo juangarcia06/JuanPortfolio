@@ -131,7 +131,7 @@ fetch('posts.json')
 
 // 2nd type effect
 const dynamicText1 = document.querySelector(".typing1");
-const words1 = ["Hey there!", "Hola!", "Hallo!"];
+const words1 = ["Hey ther!", "Hola!", "Hallo!"];
 let wordIndex1 = 0;
 let wordIndex2 = 0;
 let charIndex1 = 0;
