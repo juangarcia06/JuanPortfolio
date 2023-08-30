@@ -16,7 +16,7 @@ fetch('../posts.json')
 
         post = post[0]
 
-        document.title = post.title
+        document.title = post.title.charAt(0).toUpperCase() + post.title.slice(1)
 
         const postsSection = document.querySelector('.content')
 
