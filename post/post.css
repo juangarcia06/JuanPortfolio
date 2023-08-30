@@ -53,7 +53,7 @@ main img {
 
 main .titleimage {
     max-height: 200px;
-    height: auto;
+    width: auto;
     left: 0;
 }
 
