@@ -12,7 +12,7 @@ function getParameterByName(name, url) {
 fetch('../posts.json')
     .then(response => response.json())
     .then(data => {
-        const post = data.posts.filter((post) => post.parameter == getParameterByName("name"))
+        let post = data.posts.filter((post) => post.parameter == getParameterByName("name"))
 
         post = post[0]
         console.log(post)
