@@ -31,13 +31,13 @@ fetch('../posts.json')
         postsSection.appendChild(p)
 
         for (const comment of post.comments) {
-            const img = document.createElement('img')
-            img.src = "../blogimages/" + comment.img
-            postsSection.appendChild(img)
-
             const h2 = document.createElement('h2')
             h2.textContent = comment.title.charAt(0).toUpperCase() + comment.title.slice(1)
             postsSection.appendChild(h2)
+
+            const img = document.createElement('img')
+            img.src = "../blogimages/" + comment.img
+            postsSection.appendChild(img)
 
             const p = document.createElement('p');
             p.textContent = comment.comment;
