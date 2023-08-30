@@ -19,7 +19,7 @@ fetch('../posts.json')
 
         const postsSection = document.getElementById('.content')
 
-        const header = postsSection.getElementsByTagName("h1");
+        const header = document.getElementById("h1");
         header.textContent = post.title;
 
         const img = document.createElement('img')
