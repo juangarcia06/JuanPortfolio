@@ -71,6 +71,7 @@ fetch('posts.json')
                 aTag.href = post.url
             } else if (post.parameter != "") {
                 aTag.href = "./post?name=" + post.parameter
+                aTag.ariaLabel = post.parameter.charAt(0).toUpperCase() + post.parameter.slice(1)
             }
 
             aTag.target = "_blank"
@@ -82,6 +83,7 @@ fetch('posts.json')
             const img = document.createElement('img')
             img.src = "./blogimages/" + post.img
             img.alt = (post.img.charAt(0).toUpperCase() + post.img.slice(1)).replace(/\.[^/.]+$/, "")
+            img.loading = "lazy";
 
             articleContainer.appendChild(img)
 

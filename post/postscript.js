@@ -27,6 +27,7 @@ fetch('../posts.json')
         img.src = "../blogimages/" + post.img
         img.alt = (post.img.charAt(0).toUpperCase() + post.img.slice(1)).replace(/\.[^/.]+$/, "")
         img.classList.add("titleimage")
+        img.loading = "lazy";
         postsSection.appendChild(img)
 
         const p = document.createElement('p')
