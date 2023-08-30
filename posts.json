@@ -60,12 +60,18 @@
             "comments": []
         },
         {
-            "title": "TitanCore T1",
+            "title": "TitanCore",
             "description": "TitanCore was a portable console based on GameStream technology. You could play every game possible with an 25mb/s connection. It started with a Raspberry Pi 3 and I finished it with an Intel Compute Stick with an m3. The project ended due to lack of funding, although I learned a lot.",
             "img": "titancore.jpg",
             "url": "",
             "parameter": "titancore",
-            "comments": []
+            "comments": [
+                {
+                    "title": "",
+                    "comment": "TitanCore started because I wanted to be able to play games like Forza 5, GTA V, etc. The Nintendo Switch I had was comfortable and portable, but lacked performance. Games like Fortnite did not pass 20fps and it was very unpleasant being used to 144fps on pc. I started to inform myself and I saw that there were already some consoles like the GPD, the problem was that they had little more power than a Switch and cost more than 800€. I started to look at applications like Parsec which supposedly offered GameStreaming without latency in high quality. Having a Radeon graphics card I could not use Moonlight. I managed to play the game, but it had a lot of errors and was not running smoothly. I left that problem aside and mounted a Raspberry Pi 3B with a 7 inch screen with RetroPie and several local games (even GTA Vice City ran). I had the basis of the console, but it lacked a lot of development. I lost interest as there was no way to get Parsec running and abandoned the project for almost half a year. I tried again buying an Intel Compute Stick with an Intel m3 and 4gb of RAM, a 10 inch 1080p screen (very expensive) and a 240GB SSD a great improvement that would allow me to play more games natively and should work better. At that time I already had a laptop with a Nvidia RTX 3050 Ti and I could already use Moonlight. I installed Windows 10 and spent hours optimizing it, removing services etc. I was able to run Portal locally and play! Games like Minecraft were playable. When I finally got Moonlight installed and configured correctly I ran the first test, I managed to run Forza Horizon 5 in 1080p 60 fps with no problems, no latency issues and no input errors. Everything looked good and was getting better and better until when I was configuring the touch and controller usage, a screen coil exploded (bought second hand from Wallapop). I was about to abandon it, but I bought another 7 inch screen. I had everything working when the Intel Compute Stick died, one day it wouldn't turn on at all, it didn't even reach the BIOS. I abandoned the project because they no longer produce the Intel Compute Stick and I didn't want to spend +300€ in one (the first one I bought for 80€). I still learned a lot and had quite a lot of fun.",
+                    "img": ""
+                }
+            ]
         },
         {
             "title": "WayMiner",
@@ -73,7 +79,13 @@
             "img": "wayminer.jpg",
             "url": "",
             "parameter": "wayminer",
-            "comments": []
+            "comments": [
+                {
+                    "title": "Introduction",
+                    "comment": "Wayminer hosted dvpns on Docker that rent your bandwidth to companies. I made a Bash installing script to be able to setup them fast. It produced approximately between 8-15$ per month, you could withdraw in multiple cryptocurrencies like USDT, TRX, LTC, BTC, ETH, DOGE, etc. I had up to 6 working. There can only be one per IP. With the lack of Raspberry Pis I bought them on Wallapop (second hand), each Wayminer with accessories went for about 60€ each. They were operational from May 2022 until June 2023.",
+                    "img": ""
+                }
+            ]
         },
         {
             "title": "WayIndustries",
@@ -81,7 +93,13 @@
             "img": "wayindustries.jpg",
             "url": "",
             "parameter": "wayindustries",
-            "comments": []
+            "comments": [
+                {
+                    "title": "",
+                    "comment": "WayIndustries was an eCommerce attempt similar to Amazon in a smaller scale. For only 5€ a month you could publish your products. I took a 10% commission of the profits. In return I was in charge of everything except marketing. I promoted it on the UnidosEmprendedores Discord. I didn't make any money, but I also used the web to sell my products so I didn't lose anything.",
+                    "img": ""
+                }
+            ]
         },
         {
             "title": "LazapDigital",
