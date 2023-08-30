@@ -4,57 +4,51 @@
             "title": "Carit",
             "description": "Carit is a AI psycologyst app built with React Native, Expo, SQLite and Firebase.",
             "img": "carit.jpg",
-            "url": "./blog?carit",
-            "comments": [
-                {
-                    "title": "Development",
-                    "comment": "I built it in 2 months while learning React Native and Expo after completing my Full Stack Developer Course",
-                    "img": "favicon.png"
-                },
-                {
-                    "title": "Famous",
-                    "comment": "The most downloads I got was 7 bruh that is sad :(",
-                    "img": "favicon.png"
-                }
-            ]
+            "url": "https://caritlove.netlify.app/",
+            "parameter": "carit",
+            "comments": []
         },
         {
             "title": "Guionify",
             "description": "At Guionify we write flat rate scripts for Youtube automation or  any written content. I coded the site in 6h doing a coding speedrun to improve my skills in UI/UX Design & Front End",
             "img": "Guionify.jpg",
             "url": "https://guionify.netlify.app/",
+            "parameter": "",
+            "comments": []
+        },
+        {
+            "title": "UnidosEmprendedores",
+            "description": "UnidosEmprendedores is my Discord community which has 2700+ members. It continues to grow organically through TikTok. It contains an active job board and freelancing, as well as helping to get into the world of entrepreneurship.",
+            "img": "unidosemprendedores.jpg",
+            "url": "./post?unidosemprendedores",
+            "parameter": "unidosemprendedores",
             "comments": [
                 {
-                    "title": "Development",
+                    "title": "Marketing",
                     "comment": "I built it in 2 months while learning React Native and Expo after completing my Full Stack Developer Course",
                     "img": "favicon.png"
                 },
                 {
-                    "title": "Famous",
+                    "title": "Monetize",
                     "comment": "The most downloads I got was 7 bruh that is sad :(",
                     "img": "favicon.png"
                 }
             ]
         },
         {
-            "title": "UnidosEmprendedores",
-            "description": "UnidosEmprendedores is my Discord community which has 2700+ members. It continues to grow organically through TikTok. It contains an active job board and freelancing, as well as helping to get into the world of entrepreneurship.",
-            "img": "unidosemprendedores.jpg",
-            "url": "",
-            "comments": []
-        },
-        {
             "title": "OvniReturns",
             "description": "OvniReturns was my first profitable eCommerce. I sold OvniReturns, a kind of boomerang with an engine. It has been my most profitable eCommerce by far. In TikTok we got +295K followers and +1M likes.",
             "img": "ovnireturns.jpg",
             "url": "",
+            "parameter": "ovnireturns",
             "comments": []
         },
         {
             "title": "3d design",
             "description": "I attended a 3d design course for a week and I do custom designs. I also have a 3d printer that I use quite a lot. I have done several designs and do custom 3d printing at low cost.",
-            "img": "mac3d.jpg",
+            "img": "nanoleaf.jpg",
             "url": "",
+            "parameter": "3ddesign",
             "comments": []
         },
         {
@@ -62,6 +56,7 @@
             "description": "WayGaming started by selling self-built gaming PCs iwhile covid shortage and expanded to an eCommerce.",
             "img": "waygamingsticker.jpg",
             "url": "",
+            "parameter": "waygaming",
             "comments": []
         },
         {
@@ -69,6 +64,7 @@
             "description": "TitanCore was a portable console based on GameStream technology. You could play every game possible with an 25mb/s connection. It started with a Raspberry Pi 3 and I finished it with an Intel Compute Stick with an m3. The project ended due to lack of funding, although I learned a lot.",
             "img": "titancore.jpg",
             "url": "",
+            "parameter": "titancore",
             "comments": []
         },
         {
@@ -76,6 +72,7 @@
             "description": "The WayMiner was a docker server on a Raspberry Pi hosting several dvpn that produce passive income. Each one produced about $15-20 per month, but there can only be one per IP.",
             "img": "wayminer.jpg",
             "url": "",
+            "parameter": "wayminer",
             "comments": []
         },
         {
@@ -83,6 +80,7 @@
             "description": "WayIndustries was a multi-product dropshipping store where everyone could promote his products. I got a 10% cut on each sale.",
             "img": "wayindustries.jpg",
             "url": "",
+            "parameter": "wayindustries",
             "comments": []
         },
         {
@@ -90,6 +88,7 @@
             "description": "Business digitalization agency created in August 2022 with a member of UnidosEmprendedores. We help businesses get a quality online presence.",
             "img": "Lazapdigital.png",
             "url": "https://www.lazapdigital.com",
+            "parameter": "",
             "comments": []
         },
         {
@@ -97,13 +96,23 @@
             "description": "CleverSkin was a ecom site that I built for a client using Shopify, Stripe. I also designed the Branding.",
             "img": "cleverskin.jpg",
             "url": "https://cleverskin.eu",
+            "parameter": "",
+            "comments": []
+        },
+        {
+            "title": "Es Forti Suites",
+            "description": "Es Forti Suites was a site I made for renting an apartment. One of my first web projects. (HTML, CSS)",
+            "img": "esfortisuites.jpg",
+            "url": "https://esfortisuites.netlify.app",
+            "parameter": "",
             "comments": []
         },
         {
             "title": "RedditDude",
-            "description": "RedditDude was an automated YouTube channel with a python script using Reddit API. Videos got music, voiceover, background.",
+            "description": "RedditDude was an automated YouTube channel with a script using the Reddit API. Videos got music, voiceover, background. (Python)",
             "img": "redditdude.jpg",
             "url": "",
+            "parameter": "",
             "comments": []
         }
     ]
