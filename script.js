@@ -100,3 +100,59 @@ fetch('posts.json')
             articleContainer.appendChild(p)
         }
     })
+
+
+    const dynamicText = document.querySelector(".typing");
+    const words = [".json", ".yaml", ".csv", ".xml"];
+    // Variables to track the position and deletion status of the word
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typeEffect = () => {
+        const currentWord = words[wordIndex];
+        const currentChar = currentWord.substring(0, charIndex);
+        dynamicText.textContent = currentChar;
+        dynamicText.classList.add("stop-blinking");
+        if (!isDeleting && charIndex < currentWord.length) {
+            charIndex++;
+            setTimeout(typeEffect, 200);
+        } else if (isDeleting && charIndex > 0) {
+            charIndex--;
+            setTimeout(typeEffect, 100);
+        } else {
+            // If word is deleted then switch to the next word
+            isDeleting = !isDeleting;
+            dynamicText.classList.remove("stop-blinking");
+            wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
+            setTimeout(typeEffect, 1200);
+        }
+    }
+    typeEffect();
+
+// 2nd type effect
+const dynamicText1 = document.querySelector(".typing1");
+const words1 = ["Hey!", "Hola!", "Hallo!"];
+let wordIndex1 = 0;
+let wordIndex2 = 0;
+let charIndex1 = 0;
+let isDeleting1 = false;
+
+const typeEffect1 = () => {
+    const currentWord = words1[wordIndex1];
+    const currentChar = currentWord.substring(0, charIndex1);
+    dynamicText1.textContent = currentChar;
+
+    if (!isDeleting1 && charIndex1 < currentWord.length) {
+        charIndex1++;
+        setTimeout(typeEffect1, 250);
+    } else if (isDeleting1 && charIndex1 > 0) {
+        charIndex1--;
+        setTimeout(typeEffect1, 150);
+    } else {
+        isDeleting1 = !isDeleting1;
+        wordIndex1 = !isDeleting1 ? (wordIndex1 + 1) % words1.length : wordIndex1;
+        setTimeout(typeEffect1, 600);
+    }
+}
+
+typeEffect1();
