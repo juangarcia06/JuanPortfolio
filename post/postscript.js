@@ -29,24 +29,18 @@ fetch('../posts.json')
         const p = document.createElement('p')
         p.innerText = post.description
         postsSection.appendChild(p)
-            
-        const hr = document.createElement("hr");
-        postsSection.appendChild(hr);
 
         for (const comment of post.comments) {
             const img = document.createElement('img')
             img.src = "../blogimages/" + comment.img
             postsSection.appendChild(img)
 
-            const h3 = document.createElement('h3')
-            h3.textContent = comment.title.charAt(0).toUpperCase() + comment.title.slice(1)
-            postsSection.appendChild(h3)
+            const h2 = document.createElement('h2')
+            h2.textContent = comment.title.charAt(0).toUpperCase() + comment.title.slice(1)
+            postsSection.appendChild(h2)
 
             const p = document.createElement('p');
             p.textContent = comment.comment;
             postsSection.appendChild(p)
-            
-            const hr = document.createElement("hr");
-            postsSection.appendChild(hr);
         }
     })
