@@ -67,11 +67,13 @@ fetch('posts.json')
         for (const post of data.posts) {
 
             const aTag = document.createElement('a')
-            if (post.url != "")
+            if (post.url != "") {
                 aTag.href = post.url
+            }
             
-            if (post.parameter != null)
+            if (post.parameter != null) {
                 aTag.href = "./post?name=" + post.parameter
+            }
 
             aTag.target = "_blank"
             postsSection.appendChild(aTag)
