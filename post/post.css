@@ -51,6 +51,11 @@ main img {
     width: 90%;
 }
 
+main .titleimage {
+    max-height: 100px;
+    object-fit: contain;
+}
+
 .gradient {
     background-image: linear-gradient(90deg,#60a5fa,#22d3ee,#38bdf8,#60a5fa);
     color: transparent;

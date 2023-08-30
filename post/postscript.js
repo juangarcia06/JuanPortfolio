@@ -24,7 +24,7 @@ fetch('../posts.json')
 
         const img = document.createElement('img')
         img.src = "../blogimages/" + post.img
-        img.width = "50%"
+        img.classList.add("titleimage")
         postsSection.appendChild(img)
 
         const p = document.createElement('p')
