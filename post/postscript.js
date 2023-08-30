@@ -8,13 +8,15 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-// Fetch the skills
+// Fetch the post data
 fetch('../posts.json')
     .then(response => response.json())
     .then(data => {
         let post = data.posts.filter((post) => post.parameter == getParameterByName("name"))
 
         post = post[0]
+
+        document.title = post.title
 
         const postsSection = document.querySelector('.content')
 
