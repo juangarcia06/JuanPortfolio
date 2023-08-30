@@ -15,7 +15,6 @@ fetch('../posts.json')
         let post = data.posts.filter((post) => post.parameter == getParameterByName("name"))
 
         post = post[0]
-        console.log(post)
 
         const postsSection = document.querySelector('.content')
 

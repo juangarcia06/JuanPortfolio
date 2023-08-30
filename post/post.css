@@ -52,8 +52,9 @@ main img {
 }
 
 main .titleimage {
-    max-height: 100px;
-    object-fit: contain;
+    max-height: 200px;
+    height: auto;
+    left: 0;
 }
 
 .gradient {
