@@ -151,7 +151,7 @@ const typeEffect1 = () => {
     } else {
         isDeleting1 = !isDeleting1;
         wordIndex1 = !isDeleting1 ? (wordIndex1 + 1) % words1.length : wordIndex1;
-        setTimeout(typeEffect1, 600);
+        setTimeout(typeEffect1, 400);
     }
 }
 
