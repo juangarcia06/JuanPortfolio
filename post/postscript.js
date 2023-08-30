@@ -13,8 +13,10 @@ fetch('../posts.json')
     .then(response => response.json())
     .then(data => {
         const post = data.posts.filter((post) => post.parameter == getParameterByName("name"))
+
+        post = post[0]
         console.log(post)
-        console.log(post[0])
+
         const postsSection = document.getElementById('.content')
 
         const header = postsSection.getElementsByTagName("h1");
