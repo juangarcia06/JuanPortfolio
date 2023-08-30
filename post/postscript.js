@@ -12,9 +12,8 @@ function getParameterByName(name, url) {
 fetch('../posts.json')
     .then(response => response.json())
     .then(data => {
-        const post = data.posts.filter((post) => post.parameter == getParameterByName("name"))
-        console.log(getParameterByName("name"))
-        console.log(post)
+        const post = data.posts.filter((post) => post.parameter == getParameterByName("name"))[0]
+        
         const postsSection = document.getElementById('.content')
 
         const header = postsSection.getElementsByTagName("h1");
