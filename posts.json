@@ -46,10 +46,15 @@
         {
             "title": "3d design",
             "description": "I attended a 3d design course by the age of 11/12. I also have a 3d printer that I use quite a lot. I have done several designs and do custom 3d printing at low cost.",
-            "img": "nanoleaf.jpg",
+            "img": "ender3v2.jpg",
             "url": "",
             "parameter": "3ddesign",
             "comments": [
+                {
+                    "title": "Smartrix",
+                    "comment": "Smartrix is a 3d printed led matrix display/clock built by me. It is entirely 3d printed (obviously the electronics aren't). The software is also developed by me and it can show the time, cryptocurrencies price, weather, etc. The finished version has a white layer to diffuse the light and a tinted methacrylate on top.",
+                    "img": "smartrix.jpg"
+                },
                 {
                     "title": "Nanoleaf",
                     "comment": "I built this Nanoleaf clone using my 3d printer and some led strips. It is controllable through an app and controller.",
