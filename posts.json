@@ -78,7 +78,17 @@
                 },
                 {
                     "title": "Retry",
-                    "comment": "I tried again buying an Intel Compute Stick with an Intel m3 and 4gb of RAM, a 10 inch 1080p screen (very expensive) and a 240GB SSD a great improvement that would allow me to play more games natively and should work better. At that time I already had a laptop with a Nvidia RTX 3050 Ti and I could already use Moonlight. I installed Windows 10 and spent hours optimizing it, removing services etc. I was able to run Portal locally and play! Games like Minecraft were playable. When I finally got Moonlight installed and configured correctly I ran the first test, I managed to run Forza Horizon 5 in 1080p 60 fps with no problems, no latency issues and no input errors. Everything looked good and was getting better and better until when I was configuring the touch and controller usage, a screen coil exploded (bought second hand from Wallapop). I was about to abandon it, but I bought another 7 inch screen. I had everything working when the Intel Compute Stick died, one day it wouldn't turn on at all, it didn't even reach the BIOS. I abandoned the project because they no longer produce the Intel Compute Stick and I didn't want to spend +300€ in one (the first one I bought for 80€). I still learned a lot and had quite a lot of fun.",
+                    "comment": "I tried again buying an Intel Compute Stick with an Intel m3 and 4gb of RAM, a 10 inch 1080p screen (very expensive) and a 240GB SSD a great improvement that would allow me to play more games natively and should work better. At that time I already had a laptop with a Nvidia RTX 3050 Ti and I could already use Moonlight. I installed Windows 10 and spent hours optimizing it, removing services etc. I was able to run Portal locally and play! Games like Minecraft were playable. When I finally got Moonlight installed and configured correctly I ran the first test, I managed to run Forza Horizon 5 in 1080p 60 fps with no problems, no latency issues and no input errors.",
+                    "img": ""
+                },
+                {
+                    "title": "Explosion",
+                    "comment": "While I was configuring the touch and controller usage, a coil in the displaycontroller exploded (bought second hand from Wallapop). I was about to abandon it, but I bought another 7 inch screen.",
+                    "img": ""
+                },
+                {
+                    "title": "End",
+                    "comment": "Everything was working until  the Intel Compute Stick died, one day it wouldn't turn on at all, it didn't even reach the BIOS. I abandoned the project because they no longer produce the Intel Compute Stick and I didn't want to spend +300€ in one (the first one I bought for 80€). I still learned a lot and had quite a lot of fun.",
                     "img": ""
                 }
             ]
