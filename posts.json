@@ -106,7 +106,7 @@
             "parameter": "waygaming",
             "comments": [
                 {
-                    "title": "Converting Covid into Sales",
+                    "title": "Converting Covid into Sales (My first pc)",
                     "comment": "I built and sold more than 10 PCs. It all started after I sold my pc because I wanted a laptop. I had built that PC for about 400$ in 2020 and sold it for 600$ nearly two years later. That got me thinking and I started my first 'business'.",
                     "img": "firstpcbuild.jpg"
                 },
@@ -164,7 +164,7 @@
             "parameter": "wayminer",
             "comments": [
                 {
-                    "title": "Introduction",
+                    "title": "",
                     "comment": "Wayminer hosted dvpns on Docker that rent your bandwidth to companies. I made a Bash installing script to be able to setup them fast. It produced approximately between 8-15$ per month, you could withdraw in multiple cryptocurrencies like USDT, TRX, LTC, BTC, ETH, DOGE, etc. I had up to 6 working. There can only be one per IP. With the lack of Raspberry Pis I bought them on Wallapop (second hand), each Wayminer with accessories went for about 60€ each. They were operational from May 2022 until June 2023.",
                     "img": ""
                 }
