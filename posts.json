@@ -46,7 +46,7 @@
         {
             "title": "3d design",
             "description": "I attended a 3d design course by the age of 11/12. I also have a 3d printer that I use quite a lot. I have done several designs and do custom 3d printing at low cost.",
-            "img": "ender3v2.jpg",
+            "img": "nanoleaf.jpg",
             "url": "",
             "parameter": "3ddesign",
             "comments": [
@@ -59,6 +59,11 @@
                     "title": "Nanoleaf",
                     "comment": "I built this Nanoleaf clone using my 3d printer and some led strips. It is controllable through an app and controller.",
                     "img": "nanoleaf.jpg"
+                },
+                {
+                    "title": "My 3d printer",
+                    "comment": "My 3d printer is an Ender 3 V2, I added a system that paints filament using some sharpies to be able to print any color, it works quite good. Filament is stored in another shelf, but still is connected to a special filament holder made with some bearings.",
+                    "img": "ender3v2.jpg"
                 },
                 {
                     "title": "3d Mac",
