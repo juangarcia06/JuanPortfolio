@@ -45,11 +45,22 @@
         },
         {
             "title": "3d design",
-            "description": "I attended a 3d design course for a week and I do custom designs. I also have a 3d printer that I use quite a lot. I have done several designs and do custom 3d printing at low cost.",
+            "description": "I attended a 3d design course by the age of 11/12. I also have a 3d printer that I use quite a lot. I have done several designs and do custom 3d printing at low cost.",
             "img": "nanoleaf.jpg",
             "url": "",
             "parameter": "3ddesign",
-            "comments": []
+            "comments": [
+                {
+                    "title": "Nanoleaf",
+                    "comment": "I built this Nanoleaf clone using my 3d printer and some led strips. It is controllable through an app and controller.",
+                    "img": "nanoleaf.jpg"
+                },
+                {
+                    "title": "3d Mac",
+                    "comment": "While doing the 3d design course I designed this Mac with different sizes to be able to hold a 7 inch display, a raspberry pi/intel nuc, a camara and some ports. It would have been very cool, but I didn't have a 3d printer nor money at that time so I just left it. It would be cool to revisit it.",
+                    "img": "mac3d.jpg"
+                }
+            ]
         },
         {
             "title": "WayGaming",
