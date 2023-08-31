@@ -24,14 +24,24 @@
             "parameter": "unidosemprendedores",
             "comments": [
                 {
+                    "title": "Beginnings",
+                    "comment": "I joined UnidosEmprendedores in the first days of it's creation and helped build the community up to 2700+ members and more than 110k followers on TikTok",
+                    "img": ""
+                },
+                {
                     "title": "Marketing",
-                    "comment": "I built it in 2 months while learning React Native and Expo after completing my Full Stack Developer Course",
-                    "img": "favicon.png"
+                    "comment": "We direct people from our TikTok account to the community. Some videos where made by us, but most of them where made by a guy I hired (Payed with part of total profit).",
+                    "img": ""
                 },
                 {
                     "title": "Monetize",
-                    "comment": "The most downloads I got was 7 bruh that is sad :(",
-                    "img": "favicon.png"
+                    "comment": "At the beginnings we didn't monetize anything, but with the fast growth we made profit on TikTok, selling different services ranging from web development to marketing/ads help.",
+                    "img": ""
+                },
+                {
+                    "title": "Job board",
+                    "comment": "Some of the most popular channels are '#busco-trabajo'(Searching job) and '#ofrezco-trabajo'(Job offerings). It produces a lot of trades in the community and has also got me profits.",
+                    "img": ""
                 }
             ]
         },
