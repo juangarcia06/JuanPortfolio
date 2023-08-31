@@ -69,12 +69,12 @@ fetch('posts.json')
             const aTag = document.createElement('a')
             if (post.url != "") {
                 aTag.href = post.url
+                aTag.target = "_blank"
             } else if (post.parameter != "") {
                 aTag.href = "./post?name=" + post.parameter
                 aTag.ariaLabel = post.parameter.charAt(0).toUpperCase() + post.parameter.slice(1)
             }
 
-            aTag.target = "_blank"
             postsSection.appendChild(aTag)
 
             const articleContainer = document.createElement('article')
