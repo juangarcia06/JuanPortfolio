@@ -48,7 +48,8 @@ main a {
 }
 
 main img {
-    width: 90%;
+    max-width: 90%;
+    max-height: 500px;
     border-radius: 5px;
 }
 
