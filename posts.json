@@ -104,7 +104,23 @@
             "img": "pcbuilds.gif",
             "url": "",
             "parameter": "waygaming",
-            "comments": []
+            "comments": [
+                {
+                    "title": "Converting Covid into Sales",
+                    "comment": "I built and sold more than 10 PCs. It all started after I sold my pc because I wanted a laptop. I had built that PC for about 400$ in 2020 and sold it for 600$ nearly two years later. That got me thinking and I started my first 'business'.",
+                    "img": "firstpcbuild.jpg"
+                },
+                {
+                    "title": "Ecommerce",
+                    "comment": "After the sudden success in PC selling I opened WayGaming, my own gaming/electronics shop. I lost about 400$ on it since I didn't know anything about marketing at that moment :). It still was a nice experience and I learned a ton.",
+                    "img": "waygaming.jpg"
+                },
+                {
+                    "title": "PC Stickers ",
+                    "comment": "The Stickers I bought to put on the PCs",
+                    "img": "waygamingsticker.jpg"
+                }
+            ]
         },
         {
             "title": "TitanCore",
