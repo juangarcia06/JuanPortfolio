@@ -51,11 +51,27 @@
             "img": "ovnireturns.jpg",
             "url": "",
             "parameter": "ovnireturns",
-            "comments": []
+            "comments": [
+                {
+                    "title": "The product",
+                    "comment": "",
+                    "img": "ovni.jpg"
+                },
+                {
+                    "title": "Lost sales",
+                    "comment": "When I went viral the checkout didn't work and we lost a ton in sales, after that we didn't even come close to that, but it stil helped me to learn a ton about marketing and see what I am capable of.",
+                    "img": "leftatcheckout.jpg"
+                },
+                {
+                    "title": "Screenshot after going viral",
+                    "comment": "",
+                    "img": "ovnisesiones.jpg"
+                }
+            ]
         },
         {
             "title": "3d design",
-            "description": "I attended a 3d design course by the age of 11/12. I also have a 3d printer that I use quite a lot. I have done several designs and do custom 3d printing at low cost.",
+            "description": "By the age of 11 I attended a 3d design course which got me into this stuff. I also have a 3d printer that I use quite a lot. I have done several designs and do custom 3d printing at low cost.",
             "img": "nanoleaf.jpg",
             "url": "",
             "parameter": "3ddesign",
@@ -84,7 +100,7 @@
         },
         {
             "title": "WayGaming",
-            "description": "WayGaming started by selling self-built gaming PCs iwhile covid shortage and expanded to an eCommerce.",
+            "description": "WayGaming started by selling self-built gaming PCs while covid shortage and expanded to an eCommerce.",
             "img": "waygamingsticker.jpg",
             "url": "",
             "parameter": "waygaming",
