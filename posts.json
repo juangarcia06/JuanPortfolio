@@ -2,7 +2,7 @@
     "posts": [
         {
             "title": "Carit",
-            "description": "Carit is a AI psycologyst app built with React Native, Expo, SQLite and Firebase.",
+            "description": "Carit is a AI psycologyst app built by me with React Native, Expo, SQLite and Firebase.",
             "img": "carit.jpg",
             "url": "https://caritlove.netlify.app/",
             "parameter": "",
@@ -10,7 +10,7 @@
         },
         {
             "title": "Guionify",
-            "description": "At Guionify we write flat rate scripts for Youtube automation or  any written content. I coded the site in 6h doing a coding speedrun to improve my skills in UI/UX Design & Front End",
+            "description": "Site coded in 5h doing a coding speedrun to improve my skills in UI/UX Design & Front End",
             "img": "Guionify.jpg",
             "url": "https://guionify.netlify.app/",
             "parameter": "",
