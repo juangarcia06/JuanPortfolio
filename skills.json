@@ -12,7 +12,7 @@
     ],
     "frameworks": [
         { "name": "React.js", "iconType": "fa-brands", "icon": "fa-react" },
-        { "name": "React Native", "iconType": "fa-brands", "icon": "fa-react" },
+        { "name": "RNative", "iconType": "fa-brands", "icon": "fa-react" },
         { "name": "TDD (Jest)", "iconType": "fa-solid", "icon": "fa-flask" },
         { "name": "Express.js", "iconType": "fa-brands", "icon": "fa-node" },
         { "name": ".NET", "iconType": "fa-brands", "icon": "fa-microsoft" }

@@ -46,6 +46,14 @@
             ]
         },
         {
+            "title": "Followly",
+            "description": "Followly is a platform where you can buy different social media services (all fullfilled through backend). (Backend disabled now) React & Express.js",
+            "img": "followly.jpg",
+            "url": "https://landingfollowly.netlify.app/",
+            "parameter": "",
+            "comments": []
+        },
+        {
             "title": "OvniReturns",
             "description": "OvniReturns was my first profitable eCommerce. I sold a kind of boomerang with an engine. It has been my most profitable eCommerce by far. In TikTok we got +295K followers and +1M likes.",
             "img": "ovnireturns.jpg",
