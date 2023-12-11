@@ -10,7 +10,7 @@
         },
         {
             "title": "GuideDive",
-            "description": "AI generated blog posts in GuideDive. Create thousands of sites in minutes. Built using node and openai sdk.",
+            "description": "AI generated blog posts with GuideDive Scripts. Create thousands of sites in minutes. Built using node and openai sdk. GuideDive is my only site atm.",
             "img": "guidedive.png",
             "url": "https://guidedive.com/",
             "parameter": "",
