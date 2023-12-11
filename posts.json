@@ -9,6 +9,14 @@
             "comments": []
         },
         {
+            "title": "GuideDive",
+            "description": "AI generated blog posts in GuideDive. Create thousands of sites in minutes. Built using node and openai sdk.",
+            "img": "guidedive.png",
+            "url": "https://guidedive.com/",
+            "parameter": "",
+            "comments": []
+        },
+        {
             "title": "Guionify",
             "description": "Site coded in 5h doing a coding speedrun to improve my skills in UI/UX Design & Front End",
             "img": "Guionify.jpg",
