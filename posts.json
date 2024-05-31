@@ -1,6 +1,22 @@
 {
     "posts": [
         {
+            "title": "Capicúa",
+            "description": "Multilingual pure static html site for a local spanish school. For the forms and backend requests I used my own utility API.",
+            "img": "capicua.png",
+            "url": "https://capicuamadrid.netlify.app/",
+            "parameter": "",
+            "comments": []
+        },
+        {
+            "title": "JGarcíArt",
+            "description": "Website for the excelent artist JGarcía to showcase his art, work and dedication.",
+            "img": "jgarciart.png",
+            "url": "https://www.jgarciartd.es/",
+            "parameter": "",
+            "comments": []
+        },
+        {
             "title": "Carit",
             "description": "Carit is a AI psycologyst app built by me with React Native, Expo, SQLite and Firebase.",
             "img": "carit.jpg",
