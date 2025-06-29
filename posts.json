@@ -9,8 +9,16 @@
             "comments": []
         },
         {
+            "title": "WebToolsAPI",
+            "description": "WebToolsAPI is a utility API that I built to use in my projects. It has a lot of useful endpoints. Currently private, but I am planning to make it public soon.",
+            "img": "Webtools.png",
+            "url": "https://webtoolsapi.netlify.app/",
+            "parameter": "",
+            "comments": []
+        },
+        {
             "title": "JGarcíArt",
-            "description": "Website for the excelent artist JGarcía to showcase his art, work and dedication.",
+            "description": "Basic website for the artist JGarcía to showcase his art, work and dedication.",
             "img": "jgarciart.png",
             "url": "https://www.jgarciart.es/",
             "parameter": "",
@@ -34,7 +42,7 @@
         },
         {
             "title": "Guionify",
-            "description": "Site coded in 5h doing a coding speedrun to improve my skills in UI/UX Design & Front End",
+            "description": "Site coded in 3h doing a coding speedrun to improve my skills in UI/UX Design & Front End",
             "img": "Guionify.jpg",
             "url": "https://guionify.netlify.app/",
             "parameter": "",
@@ -131,7 +139,7 @@
             ]
         },
         {
-            "title": "WayGaming",
+            "title": "Self built PCs and tech store",
             "description": "WayGaming started by selling self-built gaming PCs while covid shortage and expanded to an eCommerce.",
             "img": "pcbuilds.gif",
             "url": "",
